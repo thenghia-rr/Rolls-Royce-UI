@@ -1,0 +1,186 @@
+body{
+    
+    background-color:rgb(247, 240, 240);
+    margin: auto;
+}
+/* LOGO */
+#logo{
+    border: 5px solid rgba(235, 146, 13, 0.87);
+}
+/* THẺ H1 NHẤP NHÁY   */
+@-webkit-keyframes my {
+    20% { color: #d7d70f; } 
+    50% { color:#333;  } 
+    100% { color: #f8950a;  } 
+}
+@-moz-keyframes my { 
+    20% { color: #d7d70f;  } 
+    50% { color:#333;  }
+    100% { color: #f8950a;  } 
+}
+@-o-keyframes my { 
+    20% { color: #d7d70f; } 
+    50% { color:#333; } 
+    100% { color:#f8950a;  } 
+}
+@keyframes my { 
+    20% { color: #d7d70f;  } 
+    50% { color:#333;  }
+    100% { color:#f8950a;  } 
+} 
+.flash{
+    border: 5px solid ;
+    font-size:60px;
+    font-family: verdana;
+    text-align: center;
+    background-color:rgb(60, 60, 60)k ;
+    color:rgba(235, 146, 13, 0.87);
+    -webkit-animation: my 2000ms infinite;
+    -moz-animation: my 2000ms infinite; 
+    -o-animation: my 2000ms infinite; 
+    animation: my 2000ms infinite;
+    text-shadow: 3px 3px red ;  
+   
+} 
+
+
+
+h2{
+    border:2px solid;
+    text-align: center;
+    background-color:rgb(247, 240, 240);
+    color:rgba(235, 146, 13, 0.87);
+    font-size:30px;
+    
+    
+}
+/* TÊN XE VÀ THÔNG TIN */
+.namecar{
+    font-size:22px;
+    font-family:verdana; 
+    color:rgb(9, 10, 10);
+
+}
+blockquote{
+    color:rgb(14, 15, 16);
+    font-size: 18px;
+}
+
+
+/* ĐỊA CHỈ AD */
+h4{
+    color:black;
+    font-style: italic;
+    font-size: 15px;
+    text-align: center;
+}
+#diachi{
+    text-align: center;
+    font-family: courier;
+    color:black;
+}
+
+h5{
+    text-align: center;
+    font-family: courier;
+    color:black;
+}
+
+h6{
+    text-align: center;
+    font-family:courier;
+    color:black;
+}
+
+
+/* ZOOM GHOST & VIỀN */
+.ghost {
+    transition: all 0.8s ease;
+}
+.ghost:hover {
+    transform: scale(1.2,1.2)
+}
+.ghost{
+    border: 1px solid black ;
+}
+
+/* ZOOM WRAITH & VIỀN */
+.wraith {
+    transition: all 0.8s ease;
+}
+.wraith:hover {
+    transform: scale(1.2,1.2)
+}
+.wraith{
+    border: 1px solid black;
+} 
+
+/* ZOOM CULLINAN & VIỀN */
+.cullinan {
+    transition: all 0.8s ease;
+}
+.cullinan:hover {
+    transform: scale(1.2,1.2)
+}
+.cullinan{
+    border: 1px solid black;
+}
+
+/* ZOOM PHANTOM & VIỀN */
+.phantom {
+    transition: all 0.8s ease;
+}
+.phantom:hover {
+    transform: scale(1.2,1.2)
+}
+.phantom{
+    border: 1px solid black;
+}
+
+/* ZOOM DAWN  & VIỀN*/
+.dawn {
+    transition: all 0.8s ease;
+}
+.dawn:hover {
+    transform: scale(1.2,1.2)
+}
+.dawn{
+    border: 1px solid black;
+}
+
+/* ZOOM BOAT-TAIL & VIỀN */
+.boattail {
+    transition: all 0.8s ease;
+}
+.boattail:hover {
+    transform: scale(1.2,1.2)
+}
+.boattail{
+    border: 1px solid black;
+}
+
+/* BẢNG THÔNG SỐ KĨ THUẬT */
+table {
+    font-family: arial, sans-serif;  
+    border-collapse: collapse;
+    width: 70%;
+    background-color: rgb(247, 240, 240);
+    
+
+}
+td {
+    border: 1px solid orange;
+    text-align: left;
+    padding: 8px;
+    
+}
+th {
+    border: 1px solid orange;
+    text-align: center;
+    padding: 8px;
+    
+}
+tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+
