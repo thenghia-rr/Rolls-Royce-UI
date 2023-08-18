@@ -193,61 +193,11 @@ h6{
 }
 
 @media (max-width: 700px) {
-    .ghost__container {
+    .image__container {
       grid-template-columns: repeat(1, 1fr);
     }
   }
-/*  ẢNH ZOOM WRAITH & VIỀN */
-.wraith {
-    transition: all 0.8s ease;
-    border: 1px solid orange;
-    left: 30px;
-}
-.wraith:hover {
-    transform: scale(1.2,1.2)
-}
 
-
-/*ẢNH ZOOM CULLINAN & VIỀN */
-.cullinan {
-    transition: all 0.8s ease;
-    border: 1px solid orange;
-    left: 30px;
-}
-.cullinan:hover {
-    transform: scale(1.2,1.2)
-}
-
-/*ẢNH ZOOM PHANTOM & VIỀN */
-.phantom {
-    transition: all 0.8s ease;
-    border: 1px solid orange;
-    left: 30px;
-}
-.phantom:hover {
-    transform: scale(1.2,1.2)
-}
-
-/*ẢNH ZOOM DAWN  & VIỀN*/
-.dawn {
-    transition: all 0.8s ease;
-    border: 1px solid orange;
-    left: 30px;
-}
-.dawn:hover {
-    transform: scale(1.2,1.2)
-}
-
-
-/*ẢNH ZOOM BOAT-TAIL & VIỀN */
-.boattail {
-    transition: all 0.8s ease;
-    border: 1px solid orange;
-    left: 30px;
-}
-.boattail:hover {
-    transform: scale(1.2,1.2);
-}
 /* BẢNG THÔNG SỐ KĨ THUẬT  */
 table {
     font-family: arial, sans-serif;  
@@ -255,6 +205,7 @@ table {
     width: 80%;
     font-size: 13px;
     margin-left: 30px; 
+    margin-bottom: 30px;
 } 
 
 td, th {
